@@ -84,7 +84,7 @@ Analyze how different pollutants contribute to AQI.
 
 ### Preview
 
-![Pollutant Analysis](Screenshot%202026-07-16%20at%2011.40.35%E2%80%AFAM.png)
+![Pollutant Analysis](Screenshot%202026-07-16%20at%2011.41.00%E2%80%AFAM.png)
 
 ---
 
@@ -102,7 +102,7 @@ Understand seasonal pollution patterns and long-term AQI behavior.
 
 ### Preview
 
-![Seasonality](Screenshot%202026-07-16%20at%2011.41.00%E2%80%AFAM.png)
+![Seasonality](Screenshot%202026-07-16%20at%2011.39.22%E2%80%AFAM.png)
 
 ---
 
