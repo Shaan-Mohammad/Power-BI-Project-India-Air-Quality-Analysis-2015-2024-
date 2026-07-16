@@ -1,81 +1,79 @@
 # 🇮🇳 India Air Quality Analytics Dashboard (2015–2024)
 
-An interactive **Power BI dashboard** that analyzes Air Quality Index (AQI) data across major Indian cities from **2015 to 2024**. This project transforms raw AQI data into meaningful insights using interactive dashboards, DAX calculations, and Power BI visualizations.
+An interactive **Power BI dashboard** built to analyze Air Quality Index (AQI) data across major Indian cities from **2015 to 2024**. The dashboard transforms raw environmental data into actionable insights through interactive visualizations, DAX measures, and data modeling.
 
 ---
 
-## 📌 Project Overview
+## 📖 Project Overview
 
-This dashboard helps analyze:
+The dashboard provides comprehensive insights into India's air quality by analyzing:
 
-- Air quality trends over time
-- City-wise AQI comparison
-- Pollutant contribution analysis
-- Seasonal AQI variations
-- Long-term AQI forecasting
-- AQI severity distribution
+- City-wise AQI performance
+- Seasonal pollution trends
+- Dominant pollutant analysis
+- Long-term AQI trends
+- AQI bucket distribution
+- Pollutant contribution across cities
 - Interactive filtering and drill-down analysis
 
 ---
 
-## 🚀 Features
+## 🚀 Key Features
 
 - 📊 Interactive Power BI Dashboard
-- 🏙️ City-wise AQI Analysis
+- 🏙️ City-wise AQI Comparison
 - 📈 Year-wise AQI Trend Analysis
-- 🌤️ Seasonal Pollution Analysis
-- ☁️ Pollutant Contribution Breakdown
-- 🔍 Dynamic Filters & Slicers
-- 📉 Forecasting for Future AQI Trends
-- 📌 KPI Cards for Quick Insights
+- 🌦️ Seasonal AQI Analysis
+- 🌫️ Pollutant Contribution Analysis
+- 📌 KPI Cards
+- 🔍 Interactive Slicers & Filters
+- 📉 AQI Forecasting
+- 📊 Heatmaps, Bubble Charts & Stacked Charts
 
 ---
 
 # 📊 Dashboard Pages
 
-## 1️⃣ India Air Quality Overview
+## 1. India Air Quality Overview
 
-Provides a high-level summary of India's air quality.
+Provides a high-level overview of air quality across India.
 
 ### Highlights
-
 - Average AQI
 - Worst Affected City
 - Dominant Pollutant
 - Severe AQI Percentage
 - AQI Trend Over Time
 - AQI Bucket Distribution
-- Interactive City & Year Filters
+- Interactive City, Season & Year Filters
 
 ### Preview
 
-![Overview](Screenshot%202026-07-16%20at%2011.39.22%E2%80%AFAM.png)
+![Overview](overview.png)
 
 ---
 
-## 2️⃣ City-Level AQI Comparison
+## 2. City-Level AQI Comparison
 
-Compare pollution levels across major Indian cities.
+Compares pollution levels across major Indian cities.
 
 ### Highlights
-
 - Average AQI by City
 - AQI Bucket Distribution
 - Seasonal Pollution Metrics
-- City-wise Pollution Table
+- Interactive Pollution Table
 
 ### Preview
 
-![City Comparison](Screenshot%202026-07-16%20at%2011.40.17%E2%80%AFAM.png)
+![City Comparison](city-comparison.png)
 
 ---
 
-## 3️⃣ Pollutant Contribution Analysis
+## 3. Pollutant Contribution Analysis
 
-Analyze how different pollutants contribute to AQI.
+Analyzes the impact of different pollutants on AQI.
 
 ### Highlights
-
 - Dominant Pollutant
 - Highest Pollution Spike
 - Pollutant Contribution by City
@@ -84,16 +82,15 @@ Analyze how different pollutants contribute to AQI.
 
 ### Preview
 
-![Pollutant Analysis](Screenshot%202026-07-16%20at%2011.41.00%E2%80%AFAM.png)
+![Pollutant Analysis](pollutant-analysis.png)
 
 ---
 
-## 4️⃣ Seasonality & Long-Term Trends
+## 4. Seasonality & Long-Term Trends
 
-Understand seasonal pollution patterns and long-term AQI behavior.
+Explores seasonal variations and long-term AQI trends.
 
 ### Highlights
-
 - Year-wise AQI Trend
 - AQI Forecast (2025–2034)
 - Seasonal AQI Comparison
@@ -102,17 +99,17 @@ Understand seasonal pollution patterns and long-term AQI behavior.
 
 ### Preview
 
-![Seasonality](Screenshot%202026-07-16%20at%2011.39.22%E2%80%AFAM.png)
+![Seasonality](seasonality-trends.png)
 
 ---
 
-# 🛠 Tech Stack
+# 🛠️ Tech Stack
 
-- Power BI Desktop
-- Power Query
-- DAX
-- Data Modeling
-- Microsoft Excel
+- **Power BI Desktop**
+- **Power Query**
+- **DAX**
+- **Data Modeling**
+- **Microsoft Excel**
 
 ---
 
@@ -140,33 +137,43 @@ The dashboard is built using historical Air Quality Index (AQI) data containing:
 - Data Modeling
 - DAX Calculations
 - Dashboard Development
-- KPI Design
 - Data Visualization
-- Trend Analysis
+- KPI Design
 - Forecasting
+- Trend Analysis
 - Business Intelligence
 
 ---
 
 # 🎯 Project Objective
 
-The objective of this project is to analyze India's Air Quality Index using interactive Power BI dashboards, enabling users to explore pollution trends, compare cities, identify dominant pollutants, and understand seasonal as well as long-term air quality patterns.
+To analyze historical Air Quality Index (AQI) data using Power BI and transform raw environmental data into meaningful insights through interactive dashboards. The project enables users to monitor pollution trends, compare cities, identify dominant pollutants, and study seasonal as well as long-term air quality patterns.
 
 ---
 
-# 📁 Repository Contents
+# 📁 Repository Structure
 
 ```
-📦 Power-BI-Project-India-Air-Quality-Analysis-2015-2024
+Power-BI-Project-India-Air-Quality-Analysis-2015-2024/
 │
-├── PowerBI Dashboard.pbix
+├── India_Air_Quality_Analytics_Dashboard.pbix
 ├── city_day.csv
-├── Screenshot 2026-07-16 at 11.39.22 AM.png
-├── Screenshot 2026-07-16 at 11.40.17 AM.png
-├── Screenshot 2026-07-16 at 11.40.35 AM.png
-├── Screenshot 2026-07-16 at 11.41.00 AM.png
+├── overview.png
+├── city-comparison.png
+├── pollutant-analysis.png
+├── seasonality-trends.png
 └── README.md
 ```
+
+---
+
+# 💡 Future Improvements
+
+- Add real-time AQI data integration
+- Publish dashboard to Power BI Service
+- Include more Indian cities
+- Add predictive machine learning models
+- Integrate weather and meteorological data
 
 ---
 
@@ -178,4 +185,6 @@ The objective of this project is to analyze India's Air Quality Index using inte
 
 ---
 
-⭐ If you found this project useful, consider giving it a star!
+## ⭐ Support
+
+If you found this project useful, consider giving it a ⭐ on GitHub.
